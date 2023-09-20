@@ -1,0 +1,442 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.center {
+  padding-left: calc(50% - 540px);
+  padding-right: calc(50% - 540px);
+}
+
+.bandsPosition {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+}
+.bandsPosition__div_stil {
+  min-height: 4500px;
+  border-left: 1px solid #E6E6E6;
+  border-right: 1px solid #E6E6E6;
+}
+
+.bands {
+  position: absolute;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.nav .interno {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav__div {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.nav_p {
+  color: #292F36;
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.nav__h3_logo {
+  color: #292F36;
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.blok2 {
+  height: 758px;
+  display: flex;
+  background-image: url("images/PhotoBlok1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50px;
+}
+
+.blok2__div {
+  width: 500px;
+}
+
+.blok2__h1 {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.blok2__h1_h1 {
+  color: #292F36;
+  font-family: DM Serif Display;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.blok2__h5 {
+  margin-left: 50px;
+}
+
+.blok2__h5_h5 {
+  color: #4D5053;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+  margin-bottom: 20px;
+}
+
+.blok2__button {
+  padding-left: 50px;
+}
+
+.blok2__button_button {
+  height: 75px;
+  width: 220px;
+  border-radius: 18px;
+  background: #292F36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.blok2__button_buttonSpan {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+}
+
+.blok3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.blok3__h1 {
+  height: 90px;
+}
+
+.blok3__h1_h1 {
+  color: #292F36;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1px;
+}
+
+.blok3__h3_h3 {
+  color: #4D5053;
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+
+.blok4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 100px;
+  column-gap: 100px;
+  row-gap: 50px;
+}
+
+.blok4__div1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blok4__div1_backround1 {
+  background-image: url("images/Photo(1).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-top-right-radius: 50px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.blok4__div1_backround2 {
+  background-image: url("images/Photo(2).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-top-left-radius: 50px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.blok4__div1_backround3 {
+  background-image: url("images/Photo(3).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-right-radius: 50px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.blok4__div1_backround4 {
+  background-image: url("images/Photo(4).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-left-radius: 50px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.blok4__div1_mainText1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blok4__div1_text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blok4__div1_text1H3 {
+  color: #292F36;
+  font-family: DM Serif Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.5px;
+}
+
+.blok4__div1_text1p {
+  color: #4D5053;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.blok4__div1_arrow {
+  width: 70px;
+  height: 70px;
+}
+
+.blok5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 457px;
+  background: #F4F0EC;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.blok5__digits {
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blok5__border {
+  border-right: 1px solid #CDA274;
+  height: 120px;
+}
+.blok5__12_digits {
+  color: #CDA274;
+  font-family: DM Serif Display;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* 106.25px */
+  letter-spacing: 1.7px;
+}
+
+.six__bloks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 27px;
+}
+.six__bloks_one {
+  display: flex;
+  flex-direction: column;
+  padding: 21px;
+  gap: 10px;
+  border-radius: 62px;
+  border: 1px solid #E7E7E7;
+  box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+  height: 521px;
+}
+.six__bloks_onePartOne {
+  display: flex;
+  align-items: end;
+  background-image: url("images/Photo(5).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 62px;
+  border-top-left-radius: 62px;
+  width: 100%;
+  height: 300px;
+  width: 100%;
+}
+.six__bloks_onePartOneButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #F4F0EC;
+  width: 120px;
+  height: 30px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.six__bloks_onePartOneButtonSpan {
+  color: #4D5053;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0.16px;
+  text-transform: capitalize;
+}
+.six__bloks_onePartTwo {
+  display: flex;
+  height: 70px;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.six__bloks_onePartTwoH1 {
+  color: #292F36;
+  font-family: DM Serif Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* 31.25px */
+  letter-spacing: 0.5px;
+}
+.six__bloks_onePartThree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.six__bloks_onePartThreeP {
+  color: #4D5053;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0.16px;
+  text-transform: capitalize;
+}
+.six__bloks_twoPartOne {
+  background-image: url("images/Photo(6).png");
+}
+.six__bloks_threePartOne {
+  background-image: url("images/Photo(7).png");
+}
+
+.lastBlock {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 27px;
+}
+.lastBlock .lastBlockFirst {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.lastBlock .lastBlockFirst .lastBlockFirstChild {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.lastBlock .lastBlockFirst .lastBlockFirstChild__h2_stil {
+  color: #292F36;
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* 50px */
+}
+.lastBlock .lastBlockFirst .lastBlockFirstChild__p_stil {
+  color: #4D5053;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 33px */
+  letter-spacing: 0.22px;
+}
+.lastBlock .lastBlockFirst .lastBlockFirstChildImg {
+  gap: 50px;
+}
+.lastBlock .lastBlockTwo {
+  align-items: center;
+  row-gap: 10px;
+}
+.lastBlock .lastBlockTwo__h2Pages_stil {
+  color: #292F36;
+  font-family: DM Serif Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* 31.25px */
+}
+.lastBlock .lastBlockTwo__PPages_stil {
+  color: #4D5053;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 300%;
+  /* 66px */
+  letter-spacing: 0.22px;
+}/*# sourceMappingURL=style.css.map */
